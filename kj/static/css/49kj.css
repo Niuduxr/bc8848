@@ -1,0 +1,15 @@
+.KJ-TabBox { height: 166px; overflow: hidden; color:#333; background: #fff; font-family: 'PingFang SC', 'microsoft yahei', arial, 'helvetica neue', 'hiragino sans gb', sans-serif;}
+.KJ-TabBox ul,.KJ-TabBox li{margin:0;list-style:none;padding:0;border:0;font-size: 18px;}
+.KJ-TabBox ul { display: flex; height: 36px; padding: 8px 0 0 8px; box-sizing: border-box; border-bottom: solid 2px #FFF;}
+.KJ-TabBox li{ flex: 1; height: 26px; line-height: 26px; margin-right: 8px; text-align: center; border-radius: 4px; background: #eee; cursor: pointer;}
+.KJ-TabBox li.cur{ color: #fff; background: #FF9900;}
+.KJ-TabBox li:nth-child(1).cur { background: #1FB61D;}
+.KJ-TabBox li:nth-child(2).cur { background: #E71607;}
+.KJ-TabBox li:nth-child(3).cur { background: #2389E9;}
+.KJ-TabBox li:nth-child(4).cur { background: #B907C1;}
+.KJ-TabBox div{display:none;}
+.KJ-TabBox div.cur{display:block!important;}
+.KJ-TabBox .KJ-IFRAME{}
+@media screen and (max-width: 650px) {
+.KJ-TabBox ul,.KJ-TabBox li { font-size: 16px;}
+}
